@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="First Major Project From Brad Traversy's Modern HTML & CSS From The Beginning 2024 Edition. This Project Simulates An Artist's Website. Geared towards showing off their projects in a sleek, simple, yet appealing layout. Review of everything learned thus far as part of my Web Developer Journey." />
+        <meta name="keywords" content="HTML, CSS, JavaScript, Mock-up WebSite, Web Design, Layout, Web Development" />
+        <meta name="author" content="Adrian Mihi Cardera" />
+        <meta name="robots" content="index, follow" />
+        <meta name="copyright" content="© 2025 Lumina Creative" />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Lightbox2 CSS File-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css"
+            integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" />
+
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="icon" href="./assets/images/favicon.ico" />
+        <title>Lumina Creative | Home</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container container-sm header-flex">
+                <img src="./assets/images/logo.png" alt="Lumina Creative" class="logo" />
+
+                <nav>
+                    <ul class="main-menu">
+                        <li><a class="current" href="/">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container container-sm">
+                    <h2>
+                        <span class="bg-primary">Passionate</span>
+                        creatives crafting distinct projects, driven by
+                        <span class="bg-primary">innovation</span>
+                    </h2>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="container container-lg gallery-flex">
+                    <div class="gallery-item">
+                        <a href="./assets/images/image1.jpg" data-lightbox="image-1" data-title="Blossomed Flower">
+                            <img src="./assets/images/portfolio1.jpg" alt="Portfolio Item 1" />
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image2.jpg" data-lightbox="image-2" data-title="Depth - Woods">
+                            <img src="./assets/images/portfolio2.jpg" alt="Portfolio Item 2" />
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image3.jpg" data-lightbox="image-3" data-title="Reflection - Lake">
+                            <img src="./assets/images/portfolio3.jpg" alt="Portfolio Item 3" />
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image4.jpg" data-lightbox="image-4" data-title="Pine - Tree Crown">
+                            <img src="./assets/images/portfolio4.jpg" alt="Portfolio Item 4" />
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image5.jpg" data-lightbox="image-5" data-title="Lightbulbs - Estate">
+                            <img src="./assets/images/portfolio5.jpg" alt="Portfolio Item 5" />
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image6.jpg" data-lightbox="image-6" data-title="Lion Plushie - Childhood">
+                            <img src="./assets/images/portfolio6.jpg" alt="Portfolio Item 6" />
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image7.jpg" data-lightbox="image-7" data-title="Dandelion - Nature">
+                            <img src="./assets/images/portfolio7.jpg" alt="Portfolio Item 7">
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image8.jpg" data-lightbox="image-8" data-title="Polar Bear - Glacial Glare">
+                            <img src="./assets/images/portfolio8.jpg" alt="Portfolio Item 8"/>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="./assets/images/image9.jpg" data-lightbox="image-9" data-title="Undeniable Allure - Radiance">
+                            <img src="./assets/images/portfolio9.jpg" alt="Portfolio Item 9"/>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-flex">
+                <img src="./assets/images/logo.png" alt="Lumina Creative Logo" />
+
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>(555) 555-5555</li>
+                        <li>contact@lumina.test</li>
+                        <li>10 Main st Boston MA</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-tumblr fa-2x"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jquery Dependency -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        </script>
+
+        <!-- Lightbox2 JavaScript File -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+            integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        </script>
+    </body>
+</html>
